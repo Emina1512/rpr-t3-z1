@@ -63,3 +63,9 @@ public class FiksniBroj extends TelefonskiBroj {
     ans += broj;
         return ans;
 }
+@Override
+
+public int hashCode() {
+    return 0;
+    }
+}
